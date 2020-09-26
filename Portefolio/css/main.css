@@ -1,11 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
 
-*{ 
-    overflow: hidden;
-    padding:0;
-    margin:0;
-}
+
 
 .menu *{
   z-index: 5;
