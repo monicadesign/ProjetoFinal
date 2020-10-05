@@ -12292,8 +12292,12 @@ input.call_to_action__form__item--08 {
 }
 
 .cover__title_text--10 {
-  font-weight: 700;
-  font-size: 44px; }
+    color: #e77d49;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600; 
+    font-size: 36px;
+    }
   .wf-playfairdisplay-n7-active .cover__title_text--10 {
     font-family: Playfair Display, Helvetica, Arial, sans-serif; }
   @media (max-width: 500px) {
