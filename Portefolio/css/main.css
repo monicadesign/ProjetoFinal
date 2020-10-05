@@ -132,8 +132,13 @@ position: absolute;
   z-index: 100;
 }
 
+.button--video {
+  background-color: #747bbaec;
+  color: white; }
 
-
+  .button--video:hover {
+    opacity: 80%;
+  }
 
 /*Animations*/
 .fade-in {

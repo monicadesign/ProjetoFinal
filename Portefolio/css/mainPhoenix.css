@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+
 /*!
  * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5457,7 +5459,7 @@ input {
     line-height: 31px;
     min-width: 124px;
     font-size: 12px; }
-  .button--extra-small {
+  .button--extra-small { 
     height: 20px;
     line-height: 20px;
     min-width: 60px;
@@ -12276,11 +12278,18 @@ input.call_to_action__form__item--08 {
   overflow: hidden;
   height: auto;
   padding-bottom: 80px;
-  background-color: #e7e7e7; }
+  background-color: #ffffff; 
+  text-transform: capitalize;
+}
+
 
 .cover__title--10 {
   margin-top: 172px;
-  text-align: center; }
+  color: #e77d49;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; 
+}
 
 .cover__title_text--10 {
   font-weight: 700;

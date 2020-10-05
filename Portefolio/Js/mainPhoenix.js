@@ -2166,7 +2166,7 @@ window.addEventListener('DOMContentLoaded', function (){
 	popup.init();
 	menu.init();
 	dropdown.init();
-	fonts.load();
+	//fonts.load();
 	scrollTo.bindScrollFullscreen();
 	contentChanger.bind();
 	charts.init();
