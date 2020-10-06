@@ -7304,7 +7304,7 @@ input.call_to_action__form__item--08 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 13px;
-  color: #242526;
+  color: #;
   text-transform: uppercase;
   letter-spacing: 0.085em; }
   .wf-montserrat-n7-active .features__item_title {
@@ -7724,8 +7724,8 @@ input.call_to_action__form__item--08 {
   position: absolute;
   top: 0;
   left: 15px;
-  height: 24px;
-  width: 24px;
+  height: 50px;
+  width: 50px;
   background-color: transparent; }
 
 .features__title--07 {
@@ -9969,9 +9969,12 @@ input.call_to_action__form__item--08 {
       margin-bottom: 20px; } }
 
 .works__title {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
-  font-size: 44px;
+  color: #e77d49;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
   line-height: 1.3; }
   .wf-montserrat-n7-active .works__title {
     font-family: Montserrat, Helvetica, Arial, sans-serif; }

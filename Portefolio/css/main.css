@@ -140,6 +140,11 @@ position: absolute;
     opacity: 80%;
   }
 
+
+  .selected{
+    color: #e77d49 ;
+    font-weight: bold;
+  }
 /*Animations*/
 .fade-in {
 	-webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -194,6 +199,11 @@ position: absolute;
     height: 70%;
     margin-left: 15%;
     
+  }
+
+  .w3-bar-item:hover{
+    text-decoration: underline #e77d49 ;
+    color: #747bba !important;
   }
   
   @media (min-aspect-ratio: 16/9) {
