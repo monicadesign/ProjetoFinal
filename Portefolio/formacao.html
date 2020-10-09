@@ -7,14 +7,18 @@
   <title>Mónica Vieira</title>
   <meta name="description" content="Olá eu sou a Mónica. Bem vindo ao meu website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Chama em cascata ---->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
   <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/formacao.css">
   <link rel="stylesheet" href="css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 
 <body>
   <!--MENU---->
-  <div class="w3-bar menu only-screens">
+  <div class="w3-bar menutraba only-screens">
     <a href="index.html" class="w3-bar-item w3-button">Home</a>
     <a href="sobre.html" class="w3-bar-item w3-button">Sobre</a>
     <a href="trabalhos.html" class="w3-bar-item w3-button">Trabalhos</a>
@@ -35,17 +39,76 @@
     <a href="contactos.html" class="w3-bar-item w3-button">Contactos</a>
 </div>
 
-
   <!---FORMAÇÃO--->
   <div id="Formacao" class="hidde">
     <div class="hero-wrapper">
       <div>
-        <div class="texto-sobre headers">
+        <div class="texto-sobre headers fade-in">
         <h1>Formação</h1>
     </div>
   </div>
     </div>
     </div>
-  <!------------------------------------------------->
 
+  <!---------------------------------------------------------------TIMELIME------------------------------------------------------------->
+<div class="container-fluid blue-bg fade-in" style="margin-top: 15vh;">
+  <div class="container mt-4">
+    <h2 class="pb-3 pt-2"></h2>
+    <!--first section-->
+    <div class="row align-items-center how-it-works">
+      <div class="col-2 text-center bottom">
+        <div class="circle">1</div>
+      </div>
+      <div class="col-6">
+        <h5>Fully Responsive</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works">
+      <div class="col-6 text-right">
+        <h5>Using Bootstrap</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+      <div class="col-2 text-center full">
+        <div class="circle">2</div>
+      </div>
+    </div>
+    <!--path between 2-3-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner right-bottom"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner top-left"></div>
+      </div>
+    </div>
+    <!--third section-->
+    <div class="row align-items-center how-it-works">
+      <div class="col-2 text-center top">
+        <div class="circle">3</div>
+      </div>
+      <div class="col-6">
+        <h5>Now with Pug and Sass</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+      </div>
+    </div>
+  </div>
+</div>
+ 
   </body>

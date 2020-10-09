@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
 
-
-
 .menu *{
   z-index: 5;
   color: #747bba;
@@ -30,10 +28,10 @@
   margin-top: 10px;
 }
 .hero-wrapper{
-    height: 100vh;
     width: 100vw;
     background-color: rgb(255, 255, 255);
     top: 0;
+   
 }
 
 /*SOBRE*/
@@ -145,11 +143,14 @@ position: absolute;
     color: #e77d49 ;
     font-weight: bold;
   }
+
+ 
 /*Animations*/
 .fade-in {
 	-webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 
 
 /* ----------------------------------------------
