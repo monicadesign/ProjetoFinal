@@ -30,6 +30,7 @@
   margin-top: 10px;
 }
 .hero-wrapper{
+    height: 100vh;
     width: 100vw;
     background-color: rgb(255, 255, 255);
     top: 0;
@@ -38,7 +39,7 @@
 /*SOBRE*/
 .headers{
   margin-left:2.0vw;
-  margin-top: 8vh;
+  margin-top: 4vh;
 }
 
 /*TODOS H1*/
