@@ -10,10 +10,28 @@
   <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" href="css/mainPhoenix.css">
   <link rel="stylesheet" href="css/main.css">
+  <style>
+    body {
+      overflow-y: hidden; 
+      overflow-x: hidden;
+    }
+
+  /*MEDIA QUERY*/
+    @media (max-width: 575.98px) { 
+      body{
+        overflow-y: auto;
+      }
+
+      
+      #skills-container{
+      padding-bottom: 7px;
+      }
+    }
+  </style>
 </head>
 
 
-<body>
+<body >
   <!--MENU---->
   <div class="w3-bar menutraba only-screens">
     <a href="index.html" class="w3-bar-item w3-button">Home</a>
@@ -40,7 +58,7 @@
 
 
    <!---SKILLS--->
-   <div id="Skills" class="hidde fade-in">
+   <div id="Skills" class="hidde">
     <div>
       <div class="texto-sobre headers">
     </div>
@@ -48,14 +66,15 @@
   </div>
 
   <!-- == START OF FEATURES 07 ==-->
-  <div class="features features--07 class= hidde fade-in">
+  <div class="features features--07 class= hidde">
     <div class="container">
       <div class="features__title_box features__title_box--07">
-        <h2 class="works__title">Programas</h2><span class="features__description features__description--07"></span>
+        <h2 class="works__title fade-in">Skills</h2><span class="features__description features__description--07"></span>
       </div>
     </div>
+    <div id="skills-container">
     <div class="container">
-      <div class="row">
+      <div class="row fade-in" id="skills-container">
         <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
           <div class="features__item_icon_circle--07 features__item_icon_circle--trophy-icon--blue">
             <img src="imagens/skills/AI-01.svg">
@@ -79,7 +98,7 @@
 
         <div class="col-xs-12 col-md-6 col-lg-4 features__item features__item--07">
           <div class="features__item_icon_circle--07 features__item_icon_circle--trophy-icon--blue">
-            <img src="imagens/skills/AI-04-04.svg">
+            <img src="imagens/skills/AI-04-04-04.svg">
           </div>
           <h3 class="features__item_title">Blender</h3><span class="features__item_text features__item_text--07"></span>
         </div>
@@ -98,6 +117,7 @@
           <h3 class="features__item_title">Adobe Photoshop</h3><span class="features__item_text features__item_text--07"></span>
         </div>
       </div>
+    </div>
     </div>
   </div>
   <!-- == END OF FEATURES 07 ==-->

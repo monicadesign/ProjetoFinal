@@ -144,6 +144,26 @@ position: absolute;
     font-weight: bold;
   }
 
+  #skills-container{
+    background-color: #747bba;
+    padding-top: 10vh;
+    margin-top: -40px;
+    padding-bottom:150px;    
+  }
+
+  #skills-container h3{
+    color: white;
+  }
+
+  .features__title_box--07{
+    margin-top: 0;
+    margin-bottom: 2vw;
+  }
+
+  .how-it-works.row2 .col-2.full::after  {
+    height: 100%;
+    left: calc(50% - 0px) !important;
+}
  
 /*Animations*/
 .fade-in {
@@ -208,9 +228,7 @@ position: absolute;
   }
   
   @media (min-aspect-ratio: 16/9) {
-    .fullscreen-bg__video {
-      height: 300%;
-      top: -100%;
+   
     }
   }
   
